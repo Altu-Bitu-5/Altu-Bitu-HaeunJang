@@ -58,6 +58,4 @@ int main() {
 			cout << "no" << endl;
 		}
 	}
-
-	return 0;
 }

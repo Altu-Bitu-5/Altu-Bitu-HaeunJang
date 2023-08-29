@@ -36,7 +36,6 @@ int main() {
 		y = x / 10;
 		x %= 10;
 		s.push(x);
-
 	}
 
 	while (!s.empty()) {
