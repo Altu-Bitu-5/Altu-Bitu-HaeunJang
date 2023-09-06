@@ -14,6 +14,7 @@ int main() {
 	for (int i = 1; i < n + 1;i++) {
 		q.push(i);
 	}
+
 	cout << "<";
 	while (true) {
 		if(!q.empty()) {
