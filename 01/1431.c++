@@ -1,5 +1,4 @@
 #include <iostream>
-<<<<<<< Updated upstream
 #include <vector>
 #include <algorithm>
 #include <string>
@@ -39,18 +38,10 @@ bool cmp(string &a, string &b)
         return a < b;
     }
 }
-=======
-#include <set>
-
-using namespace std;
-
-// 검색 시간 복잡도가 O(log2n)으로 낮은 Set을 사용한다.
->>>>>>> Stashed changes
 
 int main()
 {
     // 입력
-<<<<<<< Updated upstream
     int n;
     cin >> n;
 
@@ -69,32 +60,5 @@ int main()
     {
         cout << v[i] << "\n";
     }
-=======
-    int n, m;
-    cin >> n >> m;
-
-    set<string> s;
-    while (n--)
-    {
-        string str;
-        cin >> str;
-        s.insert(str);
-    }
-
-    // 연산
-    int cnt = 0;
-    while (m--)
-    {
-        string input;
-        cin >> input;
-        if (s.find(input) != s.end())
-        {
-            cnt++;
-        }
-    }
-
-    // 출력
-    cout << cnt;
->>>>>>> Stashed changes
     return 0;
 }
